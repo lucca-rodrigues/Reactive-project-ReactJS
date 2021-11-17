@@ -8,7 +8,7 @@
     "build": "babel src -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lucca Rodrigues <contato.luccarodrigues@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.16.0",

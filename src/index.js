@@ -1,4 +1,4 @@
-// import { useState, useEffect } from "React";
+// import { useState, useEffect } = React;
 const { useState, useEffect } = React;
 
 function App() {

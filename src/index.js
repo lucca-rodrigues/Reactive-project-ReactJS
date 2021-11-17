@@ -1,8 +1,8 @@
+// const { useState, useEffect } = React;
 const { useState, useEffect } = React;
-console.log("funcionando!!");
 
 function App() {
-  console.log("funcionando!!");
+  console.log;
   const [count, setCount] = useState(0);
   const decrement = () => setCount(count - 1);
   const increment = () => setCount(count + 1);
@@ -21,5 +21,9 @@ function App() {
   );
 }
 
-const rootElement = document.getElementById("teste");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("app")
+);

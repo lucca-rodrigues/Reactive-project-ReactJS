@@ -1,13 +1,12 @@
-// import { useState, useEffect } from "React";
-// // const { useState, useEffect } = React;
+import React from "react";
 
-function Title() {
-  return <h1>Title Page</h1>;
+function App() {
+  return (
+    <div>
+      <h2>Welcome to React App</h2>
+      <h3>Date : {new Date().toDateString()}</h3>
+    </div>
+  );
 }
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Title />
-  </React.StrictMode>,
-  document.getElementById("title")
-);
+export default App;

@@ -13,6 +13,7 @@ function ReactionsComponent() {
         onClick={HandleClick}
       />
       <p> {selectedIcon && `Selected Icon: ${selectedIcon}`}</p>
+      <h1>Test build Webpack</h1>
     </div>
   );
 }
